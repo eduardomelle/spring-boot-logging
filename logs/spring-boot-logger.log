@@ -1,0 +1,161 @@
+2022-11-02 10:53:41,188 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringBootLoggingApplication using Java 11.0.15 on eduardo-Inspiron-3443 with PID 522193 (/home/eduardo/confrariadev/spring-boot-logging/target/classes started by eduardo in /home/eduardo/confrariadev/spring-boot-logging)
+2022-11-02 10:53:41,191 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-02 10:53:42,301 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-11-02 10:53:42,310 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-02 10:53:42,311 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-02 10:53:42,312 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-02 10:53:42,399 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-02 10:53:42,399 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1134 ms
+2022-11-02 10:53:42,724 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-02 10:53:42,744 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-02 10:53:42,760 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringBootLoggingApplication in 5.473 seconds (JVM running for 6.042)
+2022-11-02 10:54:27,808 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-02 10:54:27,809 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-11-02 10:54:27,811 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-11-02 10:54:27,848 INFO br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] An INFO Message
+2022-11-02 10:54:27,849 WARN br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] A WARN Message
+2022-11-02 10:54:27,849 ERROR br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] An ERROR Message
+2022-11-02 11:04:31,555 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringBootLoggingApplication using Java 11.0.15 on eduardo-Inspiron-3443 with PID 542551 (/home/eduardo/confrariadev/spring-boot-logging/target/classes started by eduardo in /home/eduardo/confrariadev/spring-boot-logging)
+2022-11-02 11:04:32,106 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-02 11:04:32,108 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-02 11:05:51,492 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-11-02 11:05:52,938 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-02 11:05:52,940 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-02 11:05:52,941 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-02 11:06:06,480 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-02 11:06:06,481 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 87440 ms
+2022-11-02 11:06:39,088 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-02 11:06:45,560 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-02 11:06:46,608 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringBootLoggingApplication in 185.803 seconds (JVM running for 231.334)
+2022-11-02 13:51:08,402 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-02 13:51:08,403 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-11-02 13:51:08,404 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-11-02 13:51:08,652 TRACE br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] A TRACE Message
+2022-11-02 13:51:08,653 DEBUG br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] A DEBUG Message
+2022-11-02 13:51:08,653 INFO br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] An INFO Message
+2022-11-02 13:51:08,653 WARN br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] A WARN Message
+2022-11-02 13:51:08,653 ERROR br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] An ERROR Message
+2022-11-02 13:51:08,693 ERROR br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] br.com.eduardomelle.logging.Person@4c01dd22
+2022-11-02 15:03:29,448 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringBootLoggingApplication using Java 11.0.15 on eduardo-Inspiron-3443 with PID 64938 (/home/eduardo/confrariadev/spring-boot-logging/target/classes started by eduardo in /home/eduardo/confrariadev/spring-boot-logging)
+2022-11-02 15:03:29,496 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-02 15:03:29,498 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-02 15:03:43,773 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-11-02 15:03:43,984 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-02 15:03:43,986 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-02 15:03:43,988 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-02 15:03:45,669 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-02 15:03:45,669 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 15820 ms
+2022-11-02 15:03:48,144 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-02 15:03:49,242 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-02 15:03:49,299 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringBootLoggingApplication in 24.592 seconds (JVM running for 26.184)
+2022-11-02 15:03:56,063 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-02 15:03:56,064 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-11-02 15:03:56,066 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-11-02 15:03:56,093 TRACE br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] A TRACE Message
+2022-11-02 15:03:56,094 DEBUG br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] A DEBUG Message
+2022-11-02 15:03:56,094 INFO br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] An INFO Message
+2022-11-02 15:03:56,094 WARN br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] A WARN Message
+2022-11-02 15:03:56,095 ERROR br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] An ERROR Message
+2022-11-02 15:03:56,105 ERROR br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] Person [id=1, name=Eduardo, password=1234]
+2022-11-02 15:18:31,744 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringBootLoggingApplication using Java 11.0.15 on eduardo-Inspiron-3443 with PID 98578 (/home/eduardo/confrariadev/spring-boot-logging/target/classes started by eduardo in /home/eduardo/confrariadev/spring-boot-logging)
+2022-11-02 15:18:31,747 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-02 15:18:31,748 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-02 15:18:32,924 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-11-02 15:18:32,939 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-02 15:18:32,941 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-02 15:18:32,942 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-02 15:18:33,037 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-02 15:18:33,037 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1218 ms
+2022-11-02 15:18:33,342 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-02 15:18:33,365 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-02 15:18:33,382 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringBootLoggingApplication in 2.192 seconds (JVM running for 2.59)
+2022-11-02 15:19:12,326 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringBootLoggingApplication using Java 11.0.15 on eduardo-Inspiron-3443 with PID 100236 (/home/eduardo/confrariadev/spring-boot-logging/target/classes started by eduardo in /home/eduardo/confrariadev/spring-boot-logging)
+2022-11-02 15:19:12,330 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-02 15:19:12,332 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-02 15:19:13,418 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-11-02 15:19:13,426 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-02 15:19:13,427 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-02 15:19:13,427 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-02 15:19:13,511 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-02 15:19:13,511 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1023 ms
+2022-11-02 15:19:13,777 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-02 15:19:13,794 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-02 15:19:13,809 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringBootLoggingApplication in 2.108 seconds (JVM running for 2.457)
+2022-11-02 15:19:22,215 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-02 15:19:22,217 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-11-02 15:19:22,222 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2022-11-02 15:19:22,285 TRACE br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] A TRACE Message
+2022-11-02 15:19:22,296 DEBUG br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] A DEBUG Message
+2022-11-02 15:19:22,301 INFO br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] An INFO Message
+2022-11-02 15:19:22,302 WARN br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] A WARN Message
+2022-11-02 15:19:22,302 ERROR br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] An ERROR Message
+2022-11-02 15:19:22,303 ERROR br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] Person [id=1, name=Eduardo, password=1234]
+2022-11-02 15:19:57,074 TRACE br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-2] A TRACE Message
+2022-11-02 15:19:57,074 DEBUG br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-2] A DEBUG Message
+2022-11-02 15:19:57,075 INFO br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-2] An INFO Message
+2022-11-02 15:19:57,075 WARN br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-2] A WARN Message
+2022-11-02 15:19:57,075 ERROR br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-2] An ERROR Message
+2022-11-02 15:19:57,075 ERROR br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-2] Person [id=1, name=Eduardo, password=1234]
+2022-11-02 15:22:07,577 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringBootLoggingApplication using Java 11.0.15 on eduardo-Inspiron-3443 with PID 106300 (/home/eduardo/confrariadev/spring-boot-logging/target/classes started by eduardo in /home/eduardo/confrariadev/spring-boot-logging)
+2022-11-02 15:22:07,580 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-02 15:22:07,582 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-02 15:22:08,540 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-11-02 15:22:08,551 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-02 15:22:08,553 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-02 15:22:08,553 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-02 15:22:08,673 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-02 15:22:08,674 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 999 ms
+2022-11-02 15:22:08,972 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-02 15:22:09,006 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-02 15:22:09,025 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringBootLoggingApplication in 2.237 seconds (JVM running for 2.743)
+2022-11-02 15:22:16,328 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-02 15:22:16,329 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-11-02 15:22:16,334 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 5 ms
+2022-11-02 15:22:16,378 TRACE br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] A TRACE Message
+2022-11-02 15:22:16,378 DEBUG br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] A DEBUG Message
+2022-11-02 15:22:16,378 INFO br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] An INFO Message
+2022-11-02 15:22:16,378 WARN br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] A WARN Message
+2022-11-02 15:22:16,379 ERROR br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] An ERROR Message
+2022-11-02 15:22:16,380 ERROR br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] Person [id=1, name=Eduardo, w*""1234]
+2022-11-02 15:23:38,959 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringBootLoggingApplication using Java 11.0.15 on eduardo-Inspiron-3443 with PID 109679 (/home/eduardo/confrariadev/spring-boot-logging/target/classes started by eduardo in /home/eduardo/confrariadev/spring-boot-logging)
+2022-11-02 15:23:38,962 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-02 15:23:38,963 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-02 15:23:39,895 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-11-02 15:23:39,910 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-02 15:23:39,912 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-02 15:23:39,915 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-02 15:23:40,009 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-02 15:23:40,010 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 976 ms
+2022-11-02 15:23:40,345 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-02 15:23:40,373 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-02 15:23:40,393 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringBootLoggingApplication in 1.958 seconds (JVM running for 2.368)
+2022-11-02 15:23:44,558 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-02 15:23:44,568 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-11-02 15:23:44,573 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2022-11-02 15:23:44,691 TRACE br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-2] A TRACE Message
+2022-11-02 15:23:44,692 DEBUG br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-2] A DEBUG Message
+2022-11-02 15:23:44,693 INFO br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-2] An INFO Message
+2022-11-02 15:23:44,693 WARN br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-2] A WARN Message
+2022-11-02 15:23:44,694 ERROR br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-2] An ERROR Message
+2022-11-02 15:23:44,694 ERROR br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-2] Person [id=1, name=Eduardo, password=xxx]
+2022-11-02 15:25:41,771 INFO org.springframework.boot.StartupInfoLogger [main] Starting SpringBootLoggingApplication using Java 11.0.15 on eduardo-Inspiron-3443 with PID 114456 (/home/eduardo/confrariadev/spring-boot-logging/target/classes started by eduardo in /home/eduardo/confrariadev/spring-boot-logging)
+2022-11-02 15:25:41,774 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-02 15:25:41,775 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-02 15:25:42,743 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-11-02 15:25:42,756 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-02 15:25:42,757 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-02 15:25:42,758 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-02 15:25:42,841 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-02 15:25:42,842 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 999 ms
+2022-11-02 15:25:43,139 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-02 15:25:43,159 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-02 15:25:43,177 INFO org.springframework.boot.StartupInfoLogger [main] Started SpringBootLoggingApplication in 2.015 seconds (JVM running for 2.449)
+2022-11-02 15:25:48,156 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-02 15:25:48,158 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-11-02 15:25:48,160 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2022-11-02 15:25:48,194 TRACE br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] A TRACE Message
+2022-11-02 15:25:48,194 DEBUG br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] A DEBUG Message
+2022-11-02 15:25:48,195 INFO br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] An INFO Message
+2022-11-02 15:25:48,195 WARN br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] A WARN Message
+2022-11-02 15:25:48,195 ERROR br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] An ERROR Message
+2022-11-02 15:25:48,196 ERROR br.com.eduardomelle.logging.LoggingController [http-nio-8080-exec-1] Person [id=1, name=Eduardo, password=***]
